@@ -3,7 +3,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { BsArrowRight } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, FreeMode, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 // data
 const workSlides = {
   slides: [
@@ -11,19 +11,23 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb1.jpg",
+          link: "https://aura-5911c.web.app",
+          path: "/social.png",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          link: "https://blogclient.onrender.com/",
+          path: "/blog.png",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          link: "https://fiverr-eef97.web.app/",
+          path: "/fiverr.png",
         },
         {
           title: "title",
-          path: "/thumb4.jpg",
+          link: "https://tour-app-898fe.web.app",
+          path: "/music.png",
         },
       ],
     },
@@ -31,19 +35,18 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb4.jpg",
+          link: "https://github.com/vhiz/odering-mobile",
+          path: "/food.avif",
         },
         {
           title: "title",
-          path: "/thumb1.jpg",
+          link: "https://github.com/vhiz/aura-mobile",
+          path: "/social.avif",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
+          link: "https://github.com/vhiz/movie-mobile",
+          path: "/movie.jpg",
         },
       ],
     },
@@ -64,7 +67,9 @@ export default function WorkSlider() {
         <SwiperSlide key={i}>
           <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer ">
             {item.images.map((img, i) => (
-              <div
+              <a
+                href={img.link}
+                target="blank"
                 key={i}
                 className="relative rounded-lg overflow-hidden flex items-center justify-center group"
               >
@@ -87,7 +92,7 @@ export default function WorkSlider() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </SwiperSlide>

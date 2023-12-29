@@ -17,8 +17,8 @@ export default function Home() {
             animate="show"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality </span>
+            Making your <br /> Dreams{" "}
+            <span className="text-accent">Digital Today </span>
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.3)}
@@ -27,10 +27,10 @@ export default function Home() {
             animate="show"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+            {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
             vel harum sit ab ipsam laborum voluptatem nobis itaque! A
             reprehenderit iste, assumenda ad inventore repellendus quidem
-            commodi placeat ipsa libero?
+            commodi placeat ipsa libero? */}
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectBtn />
@@ -53,7 +53,7 @@ export default function Home() {
           variants={fadeIn("up", 0.5)}
           initial="hidden"
           animate="show"
-        //   exit={"exit"}
+          //   exit={"exit"}
           transition={{ duration: 1, ease: "easeInOut" }}
           className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:-bottom-25 lg:right-[8%]"
         >

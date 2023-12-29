@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 export default function Social() {
   const data = [
     {
-      path: "",
+      path: "https://github.com/vhiz",
       img: "/github.png",
     },
     {
-      path: "",
+      path: "https://www.linkedin.com/in/mgbeahurike-victor-40981723b",
       img: "/linkedin.png",
     },
     {
-      path: "",
+      path: "https://twitter.com/The_api_guy33?t=xAKsZTpLidITkXlAGtTBWA&s=09",
       img: "/twitter.png",
     },
     {
-      path: "",
+      path: "https://wa.me/09056394367?text=Hello%20welcome%2C%20how%20may%20I%20be%20of%20assistance",
       img: "/whatsapp.png",
     },
   ];

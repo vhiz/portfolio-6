@@ -86,10 +86,10 @@ export default function About() {
             // exit={"exit"}
             initial="hidden"
             animate="show"
-            className="h2"
+            className="h2 capitalize"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            I don't only build  <span className="text-accent">Websites</span> I
+            solve problems.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -98,10 +98,10 @@ export default function About() {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
             aspernatur tempore iste asperiores in debitis. Autem asperiores nemo
             voluptas dolore facilis aut omnis beatae repudiandae? Quisquam
-            perferendis placeat quae recusandae!
+            perferendis placeat quae recusandae! */}
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
@@ -113,7 +113,7 @@ export default function About() {
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent">
-                  <CountUp start={0} end={10} duration={10} /> +
+                  <CountUp start={0} end={5} duration={4} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience
@@ -121,7 +121,7 @@ export default function About() {
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent">
-                  <CountUp start={0} end={450} duration={10} /> +
+                  <CountUp start={0} end={28} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied Clients
@@ -129,7 +129,7 @@ export default function About() {
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent">
-                  <CountUp start={0} end={12} duration={7} /> +
+                  <CountUp start={0} end={20} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished Projects
