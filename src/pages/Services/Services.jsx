@@ -25,7 +25,7 @@ export default function Services() {
               animate="show"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0 uppercase"
             >
-              This  are a list of services i offer
+              These are a list of services i offer
             </motion.p>
           </div>
           <motion.div

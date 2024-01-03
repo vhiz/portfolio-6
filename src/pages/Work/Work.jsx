@@ -25,7 +25,7 @@ export default function Work() {
               animate="show"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              {`This are the projects i've worked on the first slide are me react
+              {`These are the projects i've worked on the first slide are my react
               projects the second slides are my react native projects`}
             </motion.p>
           </div>
