@@ -10,22 +10,22 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
-          link: "https://aura-5911c.web.app",
-          path: "/social.png",
+          title: "Ai Camera",
+          link: "https://ai-camera-puce.vercel.app/",
+          path: "/camera.jpg",
         },
         {
-          title: "title",
-          link: "https://blogclient.onrender.com/",
-          path: "/blog.png",
+          title: "Blog",
+          link: "https://blog-nexjs-vhizs-projects.vercel.app/",
+          path: "/blog.jpg",
         },
         {
-          title: "title",
+          title: "Fiver Clone",
           link: "https://fiverr-eef97.web.app/",
           path: "/fiverr.png",
         },
         {
-          title: "title",
+          title: "Tour Website",
           link: "https://tour-app-898fe.web.app",
           path: "/music.png",
         },
@@ -34,17 +34,17 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
+          title: "Food App",
           link: "https://github.com/vhiz/odering-mobile",
           path: "/food.avif",
         },
         {
-          title: "title",
+          title: "Social App",
           link: "https://github.com/vhiz/aura-mobile",
           path: "/social.avif",
         },
         {
-          title: "title",
+          title: "Movie App",
           link: "https://github.com/vhiz/movie-mobile",
           path: "/movie.jpg",
         },
@@ -82,9 +82,9 @@ export default function WorkSlider() {
                   <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition all duration-700"></div>
                   <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
                     <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
-                      <div className="delay-100 uppercase">Live</div>
+                      <div className="delay-100 uppercase">{img.title}</div>
                       <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                        PROJECT
+                        DEMO
                       </div>
                       <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
                         <BsArrowRight />
