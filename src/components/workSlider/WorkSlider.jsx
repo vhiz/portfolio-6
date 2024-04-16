@@ -20,9 +20,9 @@ const workSlides = {
           path: "/blog.jpg",
         },
         {
-          title: "Fiver Clone",
-          link: "https://fiverr-eef97.web.app/",
-          path: "/fiverr.png",
+          title: "Chat-app",
+          link: "https://chat-app-e90d6.web.app/",
+          path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtYpsCTrZuvyds1rYGF2XC_A8_DC-gjfNYjV0MWYUjA&s",
         },
         {
           title: "Tour Website",
