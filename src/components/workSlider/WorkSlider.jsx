@@ -34,9 +34,9 @@ const workSlides = {
     {
       images: [
         {
-          title: "Food App",
-          link: "https://github.com/vhiz/odering-mobile",
-          path: "/food.avif",
+          title: "FlexiSAF Landing Page",
+          link: "https://landing-page-5aef3.web.app/",
+          path: "https://firebasestorage.googleapis.com/v0/b/landing-page-5aef3.appspot.com/o/Flexisaf.png?alt=media&token=9a3046cf-f329-4e6f-8208-34983985595c",
         },
         {
           title: "Social App",

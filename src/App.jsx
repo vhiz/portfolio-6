@@ -15,6 +15,7 @@ import Transition from "./components/Transition/Transition";
 import Services from "./pages/Services/Services";
 import Work from "./pages/Work/Work";
 import Contact from "./pages/Contact/Contact";
+import { Suspense } from "react";
 
 export default function App() {
   const Layout = () => {
@@ -37,7 +38,12 @@ export default function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout />,
+
+      element: (
+        <Suspense fallback={<Transition />}>
+          <Layout />
+        </Suspense>
+      ),
       children: [
         {
           path: "/",
