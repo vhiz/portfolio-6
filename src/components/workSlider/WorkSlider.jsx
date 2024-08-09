@@ -39,6 +39,11 @@ const workSlides = {
           path: "https://firebasestorage.googleapis.com/v0/b/landing-page-5aef3.appspot.com/o/Flexisaf.png?alt=media&token=9a3046cf-f329-4e6f-8208-34983985595c",
         },
         {
+          title: "Vhiz Ai",
+          link: "https://vhiz-ai.onrender.com/dashboard",
+          path: "https://images.unsplash.com/photo-1659018966820-de07c94e0d01?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+        {
           title: "Social App",
           link: "https://github.com/vhiz/aura-mobile",
           path: "/social.avif",
@@ -47,6 +52,15 @@ const workSlides = {
           title: "Movie App",
           link: "https://github.com/vhiz/movie-mobile",
           path: "/movie.jpg",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "Chimoney Bank App",
+          link: "https://chimoney-bank-app.vercel.app",
+          path: "https://plus.unsplash.com/premium_photo-1671565208967-4bb4c283f90c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuayUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
         },
       ],
     },
